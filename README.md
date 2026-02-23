@@ -1,24 +1,78 @@
-# Build a Password Strength Checker in Python Project
+# Python Password Checker
 
-This is the student starter repo for the [Build a Password Strength Checker](https://codeling.dev/projects/build-a-password-strength-checker/) project provided by [Codeling](https://codeling.dev).
+A simple Python tool that checks the strength of a password and provides feedback on how secure it is.
 
-## How to use this repo
+---
 
-To use this repo you need to create a copy of it in your own GitHub account and then clone it to your local computer.
+## 📌 Features
 
-Follow these steps:
+* Detects weak passwords
+* Checks length and complexity
+* Validates numbers, symbols, uppercase & lowercase letters
 
-1. Create your own copy of this repo:
-   - Follow this link: [Create repo from template](https://github.com/new?template_name=project_password_strength_checker_python_init&template_owner=codelingdotdev)
-   - Or click _Use this template_ > _Create new repository_ button on this screen
-2. Give the repository a name (eg: password_strength_checker)
-3. Click the _Create Repository_ button
-   - This will create a copy of this repo in your account
-4. Clone your repo onto your local computer
-5. Start the course here: [https://app.codeling.dev](https://app.codeling.dev)
 
-Your course progress will sync to your Codeling account automatically.
+---
 
-## More info
+## 🚀 Getting Started
 
-Detailed instructions are provided on the [Codeling platform](https://app.codeling.dev) and you're always welcome to [contact us](https://codeling.dev/contact/) if you have any questions.
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/glorycedi/password_strenght_checker.git
+cd password_strength_checker
+```
+
+### 2. Run the Program
+
+```bash
+python main.py
+```
+
+---
+
+## 🧾 Example Output
+
+```
+Enter password: Hello123
+Strength: Moderate
+
+```
+
+---
+
+## 📁 Project Structure
+
+```
+password-checker/
+│── main.py
+│── checker.py
+│── README.md
+```
+
+---
+
+## 🛠 Requirements
+
+* Python 3.x
+
+No external libraries required (unless you added some).
+
+---
+
+## 🧠 How It Works
+
+The script evaluates password strength based on:
+
+* Length
+* Character variety
+* Complexity rules
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork the repo and submit a pull request.
+
+---
+
+
