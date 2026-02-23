@@ -4,8 +4,8 @@ def check_length(password):
     else:
         return False
 def has_uppercase(password):
-    for char in password: # using loop to check if any letter has capital letter in it 
-        if char.isupper(): # checks if the character is uppercase
+    for char in password:
+        if char.isupper():
             return True
     else:
         return False
